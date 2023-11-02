@@ -27,31 +27,31 @@ function sqrt(a) {
 }
 
 
-function factorial(n) {
-  if (n < 0) {
-    alert(`Number is negative`)
-    return
-  } else if (n === 0 || n === 1) {
-    return 1;
-  } else if (Number.isInteger(n) === false) {
-    alert(`Not a real number`)
-    return
-  } else {
-    return n * factorial(n - 1)
-  } 
-}
-
-
 // function factorial(n) {
 //   if (n < 0) {
 //     alert(`Number is negative`)
 //     return
 //   } else if (n === 0 || n === 1) {
 //     return 1;
+//   } else if (Number.isInteger(n) === false) {
+//     alert(`Not a real number`)
+//     return
 //   } else {
 //     return n * factorial(n - 1)
 //   } 
 // }
+
+
+function factorial(n) {
+  if (n < 0) {
+    alert(`Number is negative`)
+    return
+  } else if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    return n * factorial(n - 1)
+  } 
+}
 
 // function factorial(n) {
 
