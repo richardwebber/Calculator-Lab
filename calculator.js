@@ -63,10 +63,9 @@ function factorial(n) {
 //   } else if (n === 0 || n === 1) {
 //     return 1;
 //   } else {
-//     alert()
+//     alert("Number is a decimal.")
 //   } 
 // }
-
 
 
 function calculate(expression) {
@@ -96,21 +95,21 @@ function calculate(expression) {
   }
  
   if (operator === `+`) {
-    return add(num1, num2)
+      return add(num1, num2)
   } else if (operator === `-`) {
-    return minus(num1, num2)
+      return minus(num1, num2)
   } else if (operator === `*`) {
-    return multiply(num1, num2)
+      return multiply(num1, num2)
   } else if (operator === `/`) {
-    return divide(num1, num2)
+      return divide(num1, num2)
   } else if (operator === `^`) {
-    return power(num1, num2)
+      return power(num1, num2)
   } else if (operator === `%`) {
-    return mod(num1, num2)
-  }  else if (operator === `sqrt`) {
-    return sqrt(num1)
+      return mod(num1, num2)
+  } else if (operator === `sqrt`) {
+      return sqrt(num1)
   } else if (operator === `!`) {
-    return factorial(num1)
+      return factorial(num1)
   }
   else {
     alert("You did not put in a valid operator.")
